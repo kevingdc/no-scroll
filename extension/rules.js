@@ -12,7 +12,7 @@ const RULES = [
   { id: 'rd-sidebar', site: 'Reddit', label: 'Hide sidebars on all pages', host: /(^|\.)reddit\.com$/ },
   { id: 'yt-home', site: 'YouTube', label: 'Hide home feed', host: /(^|\.)youtube\.com$/ },
   { id: 'yt-comments', site: 'YouTube', label: 'Hide comments', host: /(^|\.)youtube\.com$/ },
-  { id: 'yt-autoplay', site: 'YouTube', label: 'Disable autoplay next and hover previews', host: /(^|\.)youtube\.com$/ },
+  { id: 'yt-autoplay', site: 'YouTube', label: 'Disable autoplay (on open, next video, hover previews)', host: /(^|\.)youtube\.com$/ },
   { id: 'yt-related', site: 'YouTube', label: 'Hide recommended videos', host: /(^|\.)youtube\.com$/ },
   { id: 'yt-theater', site: 'YouTube', label: 'Open videos in theater mode', host: /(^|\.)youtube\.com$/, path: /^\/watch(\?|$)/ },
   { id: 'yt-likes', site: 'YouTube', label: 'Hide like/dislike buttons', host: /(^|\.)youtube\.com$/ },

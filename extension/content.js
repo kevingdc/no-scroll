@@ -36,6 +36,30 @@ function enterTheater() {
   theaterUrl = location.href;
 }
 
+const USER_INTENT_WINDOW_MS = 1000;
+let lastPlayerIntent = 0;
+
+// Clicks in the player and any key press (k, space) count as the user asking to play.
+document.addEventListener('pointerdown', (event) => {
+  if (event.target.closest?.('#movie_player')) {
+    lastPlayerIntent = Date.now();
+  }
+}, true);
+document.addEventListener('keydown', () => {
+  lastPlayerIntent = Date.now();
+}, true);
+
+// `play` doesn't bubble, so listen in the capture phase.
+document.addEventListener('play', (event) => {
+  if (!document.documentElement.classList.contains('ns-yt-autoplay')) {
+    return;
+  }
+  if (Date.now() - lastPlayerIntent < USER_INTENT_WINDOW_MS) {
+    return;
+  }
+  event.target.pause();
+}, true);
+
 apply();
 browser.storage.sync.get().then((stored) => {
   settings = stored;
