@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20FD1F4309D20F700CA294E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20FD1F3309D20F700CA294E /* AppDelegate.swift */; };
+		C20FD1F8309D20F700CA294E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = C20FD1F6309D20F700CA294E /* Main.html */; };
+		C20FD1FA309D20F700CA294E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C20FD1F9309D20F700CA294E /* Icon.png */; };
+		C20FD1FC309D20F700CA294E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = C20FD1FB309D20F700CA294E /* Style.css */; };
+		C20FD1FE309D20F700CA294E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = C20FD1FD309D20F700CA294E /* Script.js */; };
+		C20FD200309D20F700CA294E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20FD1FF309D20F700CA294E /* ViewController.swift */; };
+		C20FD203309D20F700CA294E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20FD201309D20F700CA294E /* Main.storyboard */; };
+		C20FD205309D20F800CA294E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20FD204309D20F800CA294E /* Assets.xcassets */; };
+		C20FD20C309D20F900CA294E /* NoScroll Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C20FD20B309D20F900CA294E /* NoScroll Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C20FD211309D20F900CA294E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20FD210309D20F900CA294E /* SafariWebExtensionHandler.swift */; };
+		C20FD224309D20F900CA294E /* rules.js in Resources */ = {isa = PBXBuildFile; fileRef = C20FD21D309D20F900CA294E /* rules.js */; };
+		C20FD225309D20F900CA294E /* images in Resources */ = {isa = PBXBuildFile; fileRef = C20FD21E309D20F900CA294E /* images */; };
+		C20FD226309D20F900CA294E /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = C20FD21F309D20F900CA294E /* options.js */; };
+		C20FD227309D20F900CA294E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = C20FD220309D20F900CA294E /* manifest.json */; };
+		C20FD228309D20F900CA294E /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = C20FD221309D20F900CA294E /* options.html */; };
+		C20FD229309D20F900CA294E /* block.css in Resources */ = {isa = PBXBuildFile; fileRef = C20FD222309D20F900CA294E /* block.css */; };
+		C20FD22A309D20F900CA294E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = C20FD223309D20F900CA294E /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20FD20D309D20F900CA294E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C20FD1E8309D20F700CA294E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20FD20A309D20F900CA294E;
+			remoteInfo = "NoScroll Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C20FD218309D20F900CA294E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C20FD20C309D20F900CA294E /* NoScroll Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C20FD1F0309D20F700CA294E /* NoScroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoScroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20FD1F3309D20F700CA294E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C20FD1F7309D20F700CA294E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		C20FD1F9309D20F700CA294E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C20FD1FB309D20F700CA294E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		C20FD1FD309D20F700CA294E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		C20FD1FF309D20F700CA294E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C20FD202309D20F700CA294E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C20FD204309D20F800CA294E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20FD206309D20F800CA294E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20FD20B309D20F900CA294E /* NoScroll Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "NoScroll Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20FD210309D20F900CA294E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		C20FD212309D20F900CA294E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20FD21D309D20F900CA294E /* rules.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = rules.js; path = ../../extension/rules.js; sourceTree = "<group>"; };
+		C20FD21E309D20F900CA294E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../extension/images; sourceTree = "<group>"; };
+		C20FD21F309D20F900CA294E /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = ../../extension/options.js; sourceTree = "<group>"; };
+		C20FD220309D20F900CA294E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../extension/manifest.json; sourceTree = "<group>"; };
+		C20FD221309D20F900CA294E /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = ../../extension/options.html; sourceTree = "<group>"; };
+		C20FD222309D20F900CA294E /* block.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = block.css; path = ../../extension/block.css; sourceTree = "<group>"; };
+		C20FD223309D20F900CA294E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../extension/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20FD1ED309D20F700CA294E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20FD208309D20F900CA294E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20FD1E7309D20F700CA294E = {
+			isa = PBXGroup;
+			children = (
+				C20FD1F2309D20F700CA294E /* NoScroll */,
+				C20FD20F309D20F900CA294E /* NoScroll Extension */,
+				C20FD1F1309D20F700CA294E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C20FD1F1309D20F700CA294E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20FD1F0309D20F700CA294E /* NoScroll.app */,
+				C20FD20B309D20F900CA294E /* NoScroll Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C20FD1F2309D20F700CA294E /* NoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				C20FD1F3309D20F700CA294E /* AppDelegate.swift */,
+				C20FD1FF309D20F700CA294E /* ViewController.swift */,
+				C20FD201309D20F700CA294E /* Main.storyboard */,
+				C20FD204309D20F800CA294E /* Assets.xcassets */,
+				C20FD206309D20F800CA294E /* Info.plist */,
+				C20FD1F5309D20F700CA294E /* Resources */,
+			);
+			path = NoScroll;
+			sourceTree = "<group>";
+		};
+		C20FD1F5309D20F700CA294E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C20FD1F6309D20F700CA294E /* Main.html */,
+				C20FD1F9309D20F700CA294E /* Icon.png */,
+				C20FD1FB309D20F700CA294E /* Style.css */,
+				C20FD1FD309D20F700CA294E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C20FD20F309D20F900CA294E /* NoScroll Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C20FD21C309D20F900CA294E /* Resources */,
+				C20FD210309D20F900CA294E /* SafariWebExtensionHandler.swift */,
+				C20FD212309D20F900CA294E /* Info.plist */,
+			);
+			path = "NoScroll Extension";
+			sourceTree = "<group>";
+		};
+		C20FD21C309D20F900CA294E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C20FD21D309D20F900CA294E /* rules.js */,
+				C20FD21E309D20F900CA294E /* images */,
+				C20FD21F309D20F900CA294E /* options.js */,
+				C20FD220309D20F900CA294E /* manifest.json */,
+				C20FD221309D20F900CA294E /* options.html */,
+				C20FD222309D20F900CA294E /* block.css */,
+				C20FD223309D20F900CA294E /* content.js */,
+			);
+			name = Resources;
+			path = "NoScroll Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20FD1EF309D20F700CA294E /* NoScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20FD219309D20F900CA294E /* Build configuration list for PBXNativeTarget "NoScroll" */;
+			buildPhases = (
+				C20FD1EC309D20F700CA294E /* Sources */,
+				C20FD1ED309D20F700CA294E /* Frameworks */,
+				C20FD1EE309D20F700CA294E /* Resources */,
+				C20FD218309D20F900CA294E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20FD20E309D20F900CA294E /* PBXTargetDependency */,
+			);
+			name = NoScroll;
+			packageProductDependencies = (
+			);
+			productName = NoScroll;
+			productReference = C20FD1F0309D20F700CA294E /* NoScroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C20FD20A309D20F900CA294E /* NoScroll Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20FD215309D20F900CA294E /* Build configuration list for PBXNativeTarget "NoScroll Extension" */;
+			buildPhases = (
+				C20FD207309D20F900CA294E /* Sources */,
+				C20FD208309D20F900CA294E /* Frameworks */,
+				C20FD209309D20F900CA294E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NoScroll Extension";
+			packageProductDependencies = (
+			);
+			productName = "NoScroll Extension";
+			productReference = C20FD20B309D20F900CA294E /* NoScroll Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C20FD1E8309D20F700CA294E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					C20FD1EF309D20F700CA294E = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					C20FD20A309D20F900CA294E = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = C20FD1EB309D20F700CA294E /* Build configuration list for PBXProject "NoScroll" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C20FD1E7309D20F700CA294E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C20FD1F1309D20F700CA294E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20FD1EF309D20F700CA294E /* NoScroll */,
+				C20FD20A309D20F900CA294E /* NoScroll Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20FD1EE309D20F700CA294E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20FD1FA309D20F700CA294E /* Icon.png in Resources */,
+				C20FD203309D20F700CA294E /* Main.storyboard in Resources */,
+				C20FD1FE309D20F700CA294E /* Script.js in Resources */,
+				C20FD1F8309D20F700CA294E /* Main.html in Resources */,
+				C20FD205309D20F800CA294E /* Assets.xcassets in Resources */,
+				C20FD1FC309D20F700CA294E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20FD209309D20F900CA294E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20FD227309D20F900CA294E /* manifest.json in Resources */,
+				C20FD225309D20F900CA294E /* images in Resources */,
+				C20FD228309D20F900CA294E /* options.html in Resources */,
+				C20FD226309D20F900CA294E /* options.js in Resources */,
+				C20FD224309D20F900CA294E /* rules.js in Resources */,
+				C20FD22A309D20F900CA294E /* content.js in Resources */,
+				C20FD229309D20F900CA294E /* block.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20FD1EC309D20F700CA294E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20FD200309D20F700CA294E /* ViewController.swift in Sources */,
+				C20FD1F4309D20F700CA294E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20FD207309D20F900CA294E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20FD211309D20F900CA294E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20FD20E309D20F900CA294E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20FD20A309D20F900CA294E /* NoScroll Extension */;
+			targetProxy = C20FD20D309D20F900CA294E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C20FD1F6309D20F700CA294E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20FD1F7309D20F700CA294E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		C20FD201309D20F700CA294E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20FD202309D20F700CA294E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C20FD213309D20F900CA294E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C20FD214309D20F900CA294E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		C20FD216309D20F900CA294E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HW4U7R3UV;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NoScroll Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NoScroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.kevingdc.NoScroll.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C20FD217309D20F900CA294E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HW4U7R3UV;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "NoScroll Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "NoScroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.kevingdc.NoScroll.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C20FD21A309D20F900CA294E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HW4U7R3UV;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoScroll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NoScroll;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.kevingdc.NoScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C20FD21B309D20F900CA294E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4HW4U7R3UV;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoScroll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NoScroll;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.kevingdc.NoScroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20FD1EB309D20F700CA294E /* Build configuration list for PBXProject "NoScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20FD213309D20F900CA294E /* Debug */,
+				C20FD214309D20F900CA294E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20FD215309D20F900CA294E /* Build configuration list for PBXNativeTarget "NoScroll Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20FD216309D20F900CA294E /* Debug */,
+				C20FD217309D20F900CA294E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20FD219309D20F900CA294E /* Build configuration list for PBXNativeTarget "NoScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20FD21A309D20F900CA294E /* Debug */,
+				C20FD21B309D20F900CA294E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C20FD1E8309D20F700CA294E /* Project object */;
+}

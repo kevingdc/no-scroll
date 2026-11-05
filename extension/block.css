@@ -1,0 +1,24 @@
+html.ns-fb-feed [role="main"],
+html.ns-ig-feed main,
+html.ns-li-feed main,
+/* Reddit feed pages keep only the header (search); everything else is hidden. */
+html.ns-rd-feed body :not(:has(header, reddit-search-large), header, header *, reddit-search-large, reddit-search-large *),
+html.ns-rd-feed #siteTable,
+html.ns-rd-sidebar #left-sidebar-container,
+html.ns-rd-sidebar reddit-sidebar-nav,
+html.ns-rd-sidebar flex-left-nav-container,
+html.ns-rd-sidebar #right-sidebar-container,
+html.ns-yt-home ytd-browse[page-subtype="home"],
+html.ns-yt-comments ytd-comments,
+html.ns-yt-comments ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-comments-section"],
+html.ns-yt-autoplay ytd-video-preview,
+html.ns-yt-autoplay #video-preview,
+html.ns-yt-likes segmented-like-dislike-button-view-model,
+html.ns-yt-likes ytd-segmented-like-dislike-button-renderer,
+html.ns-yt-related #related,
+html.ns-yt-related ytd-watch-next-secondary-results-renderer,
+html.ns-yt-related .ytp-endscreen-content,
+html.ns-yt-related .ytp-ce-element,
+html.ns-yt-related .ytp-fullscreen-grid {
+  display: none !important;
+}
