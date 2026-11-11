@@ -44,7 +44,7 @@ let lastPlayerIntent = 0;
 
 // Clicks in the player and any key press (k, space) count as the user asking to play.
 document.addEventListener('pointerdown', (event) => {
-  if (event.target.closest?.('#movie_player')) {
+  if (event.target.closest?.('#movie_player, #shorts-player, ytd-shorts')) {
     lastPlayerIntent = Date.now();
   }
 }, true);
