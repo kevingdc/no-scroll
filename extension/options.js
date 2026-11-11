@@ -1,3 +1,6 @@
+// Chrome only exposes `chrome`; Safari exposes both.
+globalThis.browser ??= chrome;
+
 browser.storage.sync.get().then((settings) => {
   const list = document.getElementById('list');
   let site = '';

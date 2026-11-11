@@ -1,6 +1,6 @@
 # No Scroll
 
-Safari extension that hides feeds on Facebook, Instagram, LinkedIn, Reddit and YouTube. Every rule can be toggled from the toolbar popup.
+Safari and Chrome extension that hides feeds on Facebook, Instagram, LinkedIn, Reddit and YouTube. Every rule can be toggled from the toolbar popup.
 
 ## Layout
 
@@ -16,6 +16,10 @@ open build/Build/Products/Debug/NoScroll.app
 ```
 
 Builds are signed with the project's Apple Development team (a free Personal Team works for your own Mac). To use another team, change Signing & Capabilities in Xcode. Unsigned builds (`CODE_SIGN_IDENTITY="-"`) need Safari → Settings → Developer → Allow unsigned extensions.
+
+## Chrome
+
+The same `extension/` folder is a Chrome extension. Open `chrome://extensions`, turn on Developer mode, click "Load unpacked" and pick `extension/`. After editing, click the reload icon on the extension's card.
 
 ## Release
 

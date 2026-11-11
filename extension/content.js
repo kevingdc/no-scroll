@@ -1,3 +1,6 @@
+// Chrome only exposes `chrome`; Safari exposes both.
+globalThis.browser ??= chrome;
+
 let settings = {};
 
 function apply() {
