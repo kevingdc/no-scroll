@@ -11,7 +11,7 @@ function apply() {
   }
 
   if (document.documentElement.classList.contains('ns-yt-autoplay')) {
-    document.querySelector('.ytp-autonav-toggle-button[aria-checked="true"]')?.click();
+    document.querySelector('.ytp-autonav-toggle-button[aria-checked="true"], .ytwAutonavToggleButtonHost[aria-pressed="true"]')?.click();
   }
 
   if (document.documentElement.classList.contains('ns-yt-theater')) {
@@ -44,7 +44,7 @@ let lastPlayerIntent = 0;
 
 // Clicks in the player and any key press (k, space) count as the user asking to play.
 document.addEventListener('pointerdown', (event) => {
-  if (event.target.closest?.('#movie_player, #shorts-player, ytd-shorts')) {
+  if (event.target.closest?.('#movie_player, #player-container-id, #shorts-player, ytd-shorts, shorts-page')) {
     lastPlayerIntent = Date.now();
   }
 }, true);

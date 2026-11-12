@@ -10,7 +10,7 @@ const RULES = [
   { id: 'rd-feed', site: 'Reddit', label: 'Hide home, News, Explore and subreddit feeds', host: /(^|\.)reddit\.com$/,
     path: /^\/((best|hot|new|top|rising|news|explore)\/?)?(\?|$)|^\/r\/[^/]+\/?((best|hot|new|top|rising|controversial)\/?)?(\?|$)/ },
   { id: 'rd-sidebar', site: 'Reddit', label: 'Hide sidebars on all pages', host: /(^|\.)reddit\.com$/ },
-  { id: 'yt-home', site: 'YouTube', label: 'Hide home feed', host: /(^|\.)youtube\.com$/ },
+  { id: 'yt-home', site: 'YouTube', label: 'Hide home feed', host: /(^|\.)youtube\.com$/, path: /^\/(\?|$)/ },
   { id: 'yt-comments', site: 'YouTube', label: 'Hide comments', host: /(^|\.)youtube\.com$/ },
   { id: 'yt-autoplay', site: 'YouTube', label: 'Disable autoplay (on open, next video, hover previews)', host: /(^|\.)youtube\.com$/ },
   { id: 'yt-related', site: 'YouTube', label: 'Hide recommended videos', host: /(^|\.)youtube\.com$/ },
