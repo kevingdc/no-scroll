@@ -1,5 +1,7 @@
 html.ns-fb-feed [role="main"],
-html.ns-fb-feed [data-type="vscroller"],
+/* Mobile Facebook keeps every tab in one scroller, so hide what follows the tab bar only while Feed is the active tab. */
+html.ns-fb-feed [data-type="vscroller"]:has(> [role="tablist"] [aria-label^="feed"][aria-selected="true"]) > [role="tablist"] ~ *,
+html.ns-fb-reels [role="tab"][aria-label^="reels"],
 html.ns-ig-feed main,
 html.ns-li-feed main,
 /* Reddit feed pages keep only the header (search); everything else is hidden. */

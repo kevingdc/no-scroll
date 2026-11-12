@@ -3,6 +3,7 @@
 const RULES = [
   { id: 'fb-feed', site: 'Facebook', label: 'Hide home feed, Watch and Reels', host: /(^|\.)facebook\.com$/,
     path: /^\/(home\.php)?(\?|$)|^\/watch\/?$|^\/reels?\/?(\?|$)/ },
+  { id: 'fb-reels', site: 'Facebook', label: 'Hide Reels tab (mobile)', host: /(^|\.)facebook\.com$/ },
   { id: 'ig-feed', site: 'Instagram', label: 'Hide home feed, Explore and Reels', host: /(^|\.)instagram\.com$/,
     path: /^\/(\?|$)|^\/(explore|reels)(\/|\?|$)/ },
   { id: 'li-feed', site: 'LinkedIn', label: 'Hide home feed', host: /(^|\.)linkedin\.com$/,
